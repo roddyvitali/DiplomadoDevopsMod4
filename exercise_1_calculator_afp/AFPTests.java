@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class AFPTests {
 
     @Test
-    public void whitdrawMoneyTest() {
+    public void withdrawMoneyTest() {
         AFP afp = new AFP();
         // final String ERROR = "ERROR";
         // fail(ERROR);

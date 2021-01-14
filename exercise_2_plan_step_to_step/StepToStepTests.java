@@ -1,4 +1,4 @@
-package exercise_2_covid;
+package exercise_2_plan_step_to_step;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -28,7 +28,7 @@ public class StepToStepTests {
         assertFalse(plan.allowedToGoOut(Location.LAS_CONDES, Week.WEEKEND, Schedule.NIGHT));
         assertFalse(plan.allowedToGoOut(Location.LA_REINA, Week.BUSINESS_DAY, Schedule.NIGHT));
         assertFalse(plan.allowedToGoOut(Location.LA_REINA, Week.WEEKEND, Schedule.NIGHT));
-        // Shouldn't go out during day when location is in quarintine
+        // Shouldn't go out during day when location is in quarantine
         assertFalse(plan.allowedToGoOut(Location.SANTIAGO, Week.BUSINESS_DAY, Schedule.DAY));
         assertFalse(plan.allowedToGoOut(Location.SANTIAGO, Week.WEEKEND, Schedule.DAY));
         // Shouldn't go out during day in weekend when location is in transition

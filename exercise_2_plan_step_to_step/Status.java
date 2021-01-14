@@ -1,4 +1,4 @@
-package exercise_2_covid;
+package exercise_2_plan_step_to_step;
 
 public class Status {
     String location;
