@@ -1,4 +1,4 @@
-# Exercise 1 - Diplomado DevOps Módulo 4
+# Exercise Optional - Diplomado DevOps Módulo 4
 
 Tests to calculate the 10% withdrawal according to Chilean law
 

@@ -1,4 +1,4 @@
-# Exercise 2 - Diplomado DevOps Módulo 4
+# Exercise 1 - Diplomado DevOps Módulo 4
 
 Tests for know if you are allowed to go out, depending on location, day and time. According to plan Paso a Paso
 
